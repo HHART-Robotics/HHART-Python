@@ -5,7 +5,7 @@ HHART's Python package and CLI. Stdlib only.
 ## Install
 
 ```text
-uv pip install "hhart @ git+https://github.com/HHART-Robotics/HHART.git@v0.1.0#subdirectory=python"
+uv pip install hhart
 ```
 
 Or build it with colcon (it has a `package.xml`) and run `ros2 run hhart hhart`.

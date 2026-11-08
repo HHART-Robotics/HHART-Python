@@ -11,8 +11,14 @@ readme = "README.md"
 dynamic = ["requires-python"]
 # Table form, Jazzy's setuptools 68 rejects bare SPDX string
 license = {text = "Apache-2.0"}
+authors = [{name = "Jackson Russell", email = "Jackson.Russell@student.uts.edu.au"}]
 
 dependencies = []
+
+[project.urls]
+Repository = "https://github.com/HHART-Robotics/HHART"
+Issues = "https://github.com/HHART-Robotics/HHART/issues"
+Changelog = "https://github.com/HHART-Robotics/HHART/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 dev = ["pytest"]
