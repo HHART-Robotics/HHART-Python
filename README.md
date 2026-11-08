@@ -9,6 +9,7 @@ uv pip install "hhart @ git+https://github.com/HHART-Robotics/HHART.git@v0.1.0#s
 ```
 
 Or build it with colcon (it has a `package.xml`) and run `ros2 run hhart hhart`.
+ROS 2 Jazzy only for now.
 
 ## Modules
 
@@ -83,3 +84,8 @@ CONTRACT.passthrough("battery", topic="/battery_state", ros_type="sensor_msgs/ms
 uv venv && uv pip install -e ".[dev]"
 pytest
 ```
+
+## Licence
+
+Licensed under the [Apache License 2.0](LICENSE) (Apache-2.0), like the rest of
+[HHART](https://github.com/HHART-Robotics/HHART). See [NOTICE](NOTICE).
