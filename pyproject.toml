@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hhart"
+version = "0.1.0"
+description = "HHART: ports, adapters and rule checks any robot can use. Stdlib only"
+readme = "README.md"
+# In setup.py instead, colcon's literal_eval chokes on setuptools' SpecifierSet
+dynamic = ["requires-python"]
+# Table form, Jazzy's setuptools 68 rejects bare SPDX string
+license = {text = "Apache-2.0"}
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+# colcon test only runs pytest via extra named test
+test = ["pytest"]
+
+[project.scripts]
+hhart = "hhart.cli:main"
