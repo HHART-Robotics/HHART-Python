@@ -88,7 +88,7 @@ def new(name: str, into: pathlib.Path, route: str = "both") -> int:
         if TOKEN in path.name:
             path.rename(path.with_name(path.name.replace(TOKEN, name)))
     print(f"{dest}: robot {name} on hhart {hhart.__version__}, route {route}. Next:\n"
-          f"  {dest / 'README.md'}, section Use: a uv venv for software/python, pnpm install at the root,\n"
+          f"  {dest / 'README.md'}, section Run: a uv venv for software/python, pnpm install at the root,\n"
           f"  then {name}-bridge --port loopback and pnpm dev")
     return 0
 
