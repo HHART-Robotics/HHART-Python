@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hhart"
-version = "0.1.0"
+version = "0.1.1"
 description = "HHART: ports, adapters and rule checks any robot can use. Stdlib only"
 readme = "README.md"
 # In setup.py instead, colcon's literal_eval chokes on setuptools' SpecifierSet
