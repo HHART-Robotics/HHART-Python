@@ -2,6 +2,10 @@
 
 HHART's Python package and CLI. Stdlib only.
 
+Developed in [HHART](https://github.com/HHART-Robotics/HHART), where issues and PRs go.
+[HHART-Python](https://github.com/HHART-Robotics/HHART-Python) is a read-only
+mirror of this folder.
+
 ## Install
 
 ```text
